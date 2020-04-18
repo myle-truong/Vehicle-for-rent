@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Vehicle for rent</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&family=Merienda:wght@700&family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+  </head>
+  <body>
+    <section class="colored-section" id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="#">
+            <img
+              class="rounded-right"
+              src="./images/logo.png"
+              width="50"
+              height="50"
+              alt=""
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarTogglerDemo02"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#cta">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#store">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#login">Login/Register</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="big-heading">
+              Searching your favorite vehicle's station nearby.
+            </h1>
+            <button type="button" class="btn btn-dark btn-lg download-button">
+              <i class="fab fa-apple"></i> Download
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-light btn-lg download-button"
+            >
+              <i class="fab fa-google-play"></i> Download
+            </button>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="title-image"
+              src="./images/header.svg"
+              alt="header-mockup"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Features -->
+    <section class="white-section" id="features">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-check-circle fa-4x"></i>
+            <h3 class="feature-title">Easy to use.</h3>
+            <p>So easy to use, just simple swip your fingers.</p>
+            <a href="#">read more</a>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-solar-panel fa-4x"></i>
+            <h3 class="feature-title">Green enegy</h3>
+            <p>And just choose which one fit on your style.</p>
+            <a href="#">read more</a>
+          </div>
+          <div class="feature-box col-lg-4">
+            <i class="icon fas fa-heart fa-4x"></i>
+            <h3 class="feature-title">Guaranteed to work.</h3>
+            <p>And All is green enegy!</p>
+            <a href="#">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="colored-section" id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">
+              We organize a road trip, we don't have a suitable car. I went to
+              the HN Shop and this was one of the right decisions. Thanks
+              HanaShop
+            </h2>
+            <img
+              class="testimonial-image"
+              src="./images/testimonials.svg"
+              alt="car-profile"
+            />
+            <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">
+              This is the best experience I've ever had
+            </h2>
+            <img
+              class="testimonial-image"
+              src="./images/testimonials2.svg"
+              alt="car-profile"
+            />
+            <em>Hana, Vietnam</em>
+          </div>
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">
+              I just start my new job. I want to try driving my favorite car.
+              And now it gives me lots of motivation to work to make money and
+              buy it.
+            </h2>
+            <img
+              class="testimonial-image"
+              src="./images/testimonials1.svg"
+              alt="car-profile"
+            />
+            <em>Beverly, Illinois</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+    <!-- Vehicle station opitions -->
+    <section id="store" class="store ">
+      <div class="container">
+          <!-- section title -->
+          <div class="row">
+              <div class="col-10 mx-auto col-sm-6 text-center">
+                  <h1 class="text-capitalize store-title">Vehicle<strong class="banner-title ">  Station</strong></h1>
+              </div>
+          </div>
+          <!-- end of section title -->
+          <!--filter buttons -->
+          <div class="row">
+              <div class=" col-lg-8 mx-auto d-flex justify-content-around my-2 sortBtn flex-wrap">
+                  <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" data-filter="man">Bikes</a>
+                  <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" data-filter="women">Scooters</a>
+                  <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" data-filter="neutral">Cars</a>
+                  <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2" data-filter="accessories">Planes</a>
+              </div>
+          </div>
+          <!-- search box -->
+          <div class="row">
+              <div class="col-10 mx-auto col-md-6 py-5">
+                  <form>
+                      <div class="input-group mb-3">
+                          <div class="input-group-prepend ">
+                              <span class="input-group-text search-box" id="search-icon"><i class="fas fa-search"></i></span>
+                          </div>
+                          <input type="text" class="form-control" placeholder='item....' id="search-item">
+                      </div>
+                  </form>
+              </div>
+          </div>
+          <div class="container mb-5">
+              <div class="row">
+                  <div class="col-md-3 col-sm-6">
+                      <div class="product-grid4">
+                          <div class="product-image4">
+                              <a href="#">
+                                  <img class="pic-1" src="./images/Vehicles/Car1.png">
+                                  <img class="pic-2" src="./images/Vehicles/Car2.png">
+                              </a>
+                              <ul class="social">
+                                  <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                  <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                  
+                              </ul>
+                              <span class="product-new-label">New</span>
+                          </div>
+                          <div class="product-content">
+                              <h3 class="title"><a href="#">Air Blade</a></h3>
+                              <div class="price">
+                                  $99.99 per hour
+                              </div>
+                              <a class="add-to-cart" href="">Detail</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                      <div class="product-grid4">
+                          <div class="product-image4">
+                              <a href="#">
+                                  <img class="pic-1" src="./images/Vehicles/Car3.png">
+                                  <img class="pic-2" src="./images/Vehicles/Car4.png">
+                              </a>
+                              <ul class="social">
+                                  <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                  <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                  
+                              </ul>
+                              <span class="product-new-label">New</span>
+                          </div>
+                          <div class="product-content">
+                              <h3 class="title"><a href="#">Vision</a></h3>
+                              <div class="price">
+                                  $149.99 per hour
+                              </div>
+                              <a class="add-to-cart" href="">Detail</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                      <div class="product-grid4">
+                          <div class="product-image4">
+                              <a href="#">
+                                  <img class="pic-1" src="./images/Vehicles/Car7.png">
+                                  <img class="pic-2" src="./images/Vehicles/Car8.png">
+                              </a>
+                              <ul class="social">
+                                  <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                  <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                                  
+                              </ul>
+                              <span class="product-new-label">New</span>
+                          </div>
+                          <br>
+                          <div class="product-content">
+                              <h3 class="title"><a href="#">Famiy Outing</a></h3>
+                              <div class="price">
+                                  $399.49 per hour
+                                  <!-- <span>$16.00</span> -->
+                              </div>
+                              <a class="add-to-cart" href="">Detail</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                      <div class="product-grid4">
+                          <div class="product-image4">
+                              <a href="#">
+                                  <img class="pic-1" src="./images/Vehicles/Car15.png">
+                                  <img class="pic-2" src="./images/Vehicles/Car16.png">
+                              </a>
+                              <ul class="social">
+                                  <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                                  <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                              </ul>
+                              <span class="product-new-label">New</span>
+                              <span class="product-discount-label">Only member</span>
+                          </div>
+                          <div class="product-content">
+                              <h3 class="title"><a href="#">Hello Summer</a></h3>
+                              <div class="price">
+                                  $999.99 per hour
+                                  <span></span>
+                              </div>
+                              <a class="add-to-cart" href="">Detail</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  </section>
+    <!-- Press -->
+
+    <section class="colored-section " id="press">
+      <h1>Our partner</h1>
+      <br>
+      <img class="press-logo" src="./images/press3.svg" alt="tc-logo" />
+      <img class="press-logo" src="./images/press2.svg" alt="tnw-logo" />
+      <img class="press-logo" src="./images/press1.svg" alt="biz-insider-logo"/>
+      <img class="press-logo" src="./images/press4.svg" alt="mashable-logo" />
+      <img class="press-logo" src="./images/press5.svg" alt="mashable-logo" />
+    </section>
+
+    <!-- Pricing -->
+
+    <section class="white-section" id="pricing">
+      <h2 class="section-heading">Become our member, more benefit</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium sapiente expedita suscipit voluptas excepturi facilis vero, recusandae nostrum cupiditate est soluta dolore quidem dolor doloremque tempora enim ipsum architecto! Quidem..</p>
+
+      <div class="row">
+        <div class="pricing-column col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>New Register</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">Free</h2>
+              <p>Free to use 15mins</p>
+              <p>Check the newest scooter modern</p>
+              <p>Member card</p>
+              <button class="btn btn-lg btn-block btn-success" type="button">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-column col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Gold</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$999 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button class="btn btn-lg btn-block btn-success" type="button">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Diamon</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$4999 / mo</h2>
+              <p>Unlimited Matches</p>
+              <p>Unlimited Messages</p>
+              <p>Unlimited App Usage</p>
+              <button class="btn btn-lg btn-block btn-success" type="button">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Titanium</h3>
+            </div>
+            <div class="card-body">
+              <h2 class="price-text">$9999 / mo</h2>
+              <p>Pirority Listing</p>
+              <p>Unlimited test newest vehicle</p>
+              <p>Unlimited use another vehicle</p>
+              <button class="btn btn-lg btn-block btn-success" type="button">
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="colored-section" id="cta">
+      <div class="container-fluid">
+        <h4 class="big-heading">
+          Green thinking, green future!
+        </h4>
+        <div class="member-team">
+          <img class="team-img col-md-6" src="./images/member-team2.svg" alt="member-team profile">
+        </div>
+        <h5 class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic explicabo dolorum tenetur quisquam deleniti culpa consequuntur reprehenderit repellat, aut fugit numquam perspiciatis iste alias, rerum sit atque! Laborum, aliquam illum.</h5>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="display-footer">
+        <div class="footer-copyright">
+          <p class="footer-copyright">© Copyright 2019 From Hana with ❤</p>
+        </div>
+        <div class="social-icon ">
+          <a href="#"><i class="social-icon fab fa-facebook-f"></i></a>
+          <a href="#"><i class="social-icon fab fa-twitter"></i></a>
+          <a href="#"><i class="social-icon fab fa-instagram"></i></a>
+          <a href="#"><i class="social-icon fab fa-instagram"></i></a>
+          <a href="#"><i class="social-icon fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
